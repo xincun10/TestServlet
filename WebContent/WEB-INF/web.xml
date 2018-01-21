@@ -53,6 +53,10 @@
   	<servlet-name>PrimeNumberServlet</servlet-name>
   	<servlet-class>com.coreservlets.PrimeNumberServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>ShadowedText</servlet-name>
+  	<servlet-class>com.coreservlets.ShadowedText</servlet-class>
+  </servlet>
   
   
   <servlet-mapping>
@@ -98,5 +102,9 @@
   <servlet-mapping>
   	<servlet-name>PrimeNumberServlet</servlet-name>
   	<url-pattern>/PrimeNumberServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShadowedText</servlet-name>
+  	<url-pattern>/ShadowedText</url-pattern>
   </servlet-mapping>
 </web-app>
