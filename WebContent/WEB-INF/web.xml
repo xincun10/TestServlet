@@ -33,6 +33,27 @@
   	<servlet-name>ShowCGIVariables</servlet-name>
   	<servlet-class>com.coreservlets.ShowCGIVariables</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>WrongDestination</servlet-name>
+  	<servlet-class>com.coreservlets.WrongDestination</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SearchEngines</servlet-name>
+  	<servlet-class>com.coreservlets.SearchEngines</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SearchEngineForm</servlet-name>
+  	<servlet-class>com.coreservlets.SearchEngineForm</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CreateExcel</servlet-name>
+  	<servlet-class>com.coreservlets.CreateExcel</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PrimeNumberServlet</servlet-name>
+  	<servlet-class>com.coreservlets.PrimeNumberServlet</servlet-class>
+  </servlet>
+  
   
   <servlet-mapping>
   	<servlet-name>BidServlet</servlet-name>
@@ -57,5 +78,25 @@
   <servlet-mapping>
   	<servlet-name>ShowCGIVariables</servlet-name>
   	<url-pattern>/ShowCGIVariables</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>WrongDestination</servlet-name>
+  	<url-pattern>/WrongDestination</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SearchEngines</servlet-name>
+  	<url-pattern>/SearchEngines</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SearchEngineForm</servlet-name>
+  	<url-pattern>/SearchEngineForm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CreateExcel</servlet-name>
+  	<url-pattern>/CreateExcel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PrimeNumberServlet</servlet-name>
+  	<url-pattern>/PrimeNumberServlet</url-pattern>
   </servlet-mapping>
 </web-app>

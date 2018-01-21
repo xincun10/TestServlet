@@ -1,5 +1,7 @@
 package com.utils;
 
+import javax.servlet.http.HttpServletRequest;
+
 public class ServletUtils {
 
 	//定义字符串常量
@@ -57,5 +59,22 @@ public class ServletUtils {
 			}
 		}
 		return flag;
+	}
+	
+	//将参数转换为int类型并返回
+	public static int getIntParameter(HttpServletRequest request, String paramName, int defaultValue)
+	{
+		String paramString = request.getParameter(paramName);
+		int paramValue;
+		try
+		{
+			paramValue = Integer.parseInt(paramString);
+		}
+		catch(NumberFormatException nfe)
+		{
+			//出现错误的话转为默认值
+			paramValue = defaultValue;
+		}
+		return paramValue;
 	}
 }
