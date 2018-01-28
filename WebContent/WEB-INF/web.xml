@@ -57,6 +57,30 @@
   	<servlet-name>ShadowedText</servlet-name>
   	<servlet-class>com.coreservlets.ShadowedText</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>RepeatVisitor</servlet-name>
+  	<servlet-class>com.cookies.RepeatVisitor</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CookieTest</servlet-name>
+  	<servlet-class>com.cookies.CookieTest</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RepeatVisitor2</servlet-name>
+  	<servlet-class>com.cookies.RepeatVisitor2</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ClientAccessCounts</servlet-name>
+  	<servlet-class>com.cookies.ClientAccessCounts</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegistrationForm</servlet-name>
+  	<servlet-class>com.cookies.RegistrationForm</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterationServlet</servlet-name>
+  	<servlet-class>com.cookies.RegisterationServlet</servlet-class>
+  </servlet>
   
   
   <servlet-mapping>
@@ -106,5 +130,29 @@
   <servlet-mapping>
   	<servlet-name>ShadowedText</servlet-name>
   	<url-pattern>/ShadowedText</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RepeatVisitor</servlet-name>
+  	<url-pattern>/RepeatVisitor</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CookieTest</servlet-name>
+  	<url-pattern>/CookieTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RepeatVisitor2</servlet-name>
+  	<url-pattern>/RepeatVisitor2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ClientAccessCounts</servlet-name>
+  	<url-pattern>/ClientAccessCounts</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegistrationForm</servlet-name>
+  	<url-pattern>/RegistrationForm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterationServlet</servlet-name>
+  	<url-pattern>/RegisterationServlet</url-pattern>
   </servlet-mapping>
 </web-app>

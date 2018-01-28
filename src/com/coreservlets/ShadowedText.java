@@ -10,7 +10,13 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.utils.MessageImage;
 import com.utils.ServletUtils;
-
+/**
+ * 读取message，fontName和fontSize参数，将它们传递给MessageImage实用工具类
+ * 创建一个JPEG图像，以指定的字体和大小显示该消息，同时在主字符串后面以灰色、倾斜阴影显示该消息。
+ * 如果用户点击了shoe font list按钮，那么servlet就不在构建图像，
+ * 而是显示服务器支持的字体名称列表。
+ *
+ */
 public class ShadowedText extends HttpServlet{
 
 	private static final char[] ServletUtilities = null;
